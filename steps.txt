@@ -1,0 +1,27 @@
+To run lab 5: 
+flex lab5.l
+ls
+gcc lex.yy.c
+./a.out
+
+lab 7:
+To run lab 7:
+flex lab7.l
+ls
+yacc -d lab7.y
+ls
+gcc lex.yy.c y.tab.c
+./a.out 
+while (a<10) a=20;
+
+while(a<20){a=10+1; a=7;}
+
+
+Commands:
+If flex and yacc not in system
+To download it:
+Flex:
+sudo apt install flex
+Yacc: 
+sudo apt-get install bison -y
+sudo apt-get install byacc -y
