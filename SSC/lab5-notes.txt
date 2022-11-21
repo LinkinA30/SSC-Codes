@@ -1,0 +1,21 @@
+example.l
+lex compiler -> lex.yy.c	gcc lex.yy.c 
+c compiler -> a.out		./a.out
+
+flex lab5.l
+gcc lex.yy.c
+./.out
+
+declaration section
+%{
+
+%}
+
+translation rules section
+%%
+
+%%
+
+subroutine section/auxiliary procedures
+
+
